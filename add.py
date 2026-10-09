@@ -1,5 +1,8 @@
+import sys
 def add(a,b):
     return a+b
 
 if __name__=="__main__":
-    print("Addition is:",add(20,30))
+    a=int(sys.argv[1])
+    b=int(sys.argv[2])
+print("The sum is:",add(a,b))
