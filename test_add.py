@@ -1,7 +1,7 @@
 from add import add
 
 def test_pos():
-    assert add(10,20) == 30
+    assert add(10,30) == 40
 def test_zero():
     assert add(10,0) == 10
 def test_neg():
