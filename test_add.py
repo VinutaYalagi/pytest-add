@@ -1,9 +1,9 @@
-from add import add
+from add import addition
 
 def test_pos():
-    assert add(10,30) == 40
+    assert addition(10,30) == 40
 def test_zero():
-    assert add(10,0) == 10
+    assert addition(10,0) == 10
 def test_neg():
-    assert add(-10,-20) == -30
+    assert addition(-10,-20) == -30
 
